@@ -5,16 +5,16 @@ Pomodoro app is based on timer and circle progress-bar, where is possible to set
 ## View App
 
 ### Desktop
-[Pomodoro Desktop](/img/desktop.jpg 'Pomodoro Desktop')
+![Pomodoro Desktop](/img/desktop.jpg 'Pomodoro Desktop')
 
 ### Tablet
-[Pomodoro Tablet](/img/tablet.jpg 'Pomodoro Tablet')
+![Pomodoro Tablet](/img/tablet.jpg 'Pomodoro Tablet')
 
 ### Mobile
-[Pomodoro Mobile](/img/mobile.jpg 'Pomodoro Mobile')
+![Pomodoro Mobile](/img/mobile.jpg 'Pomodoro Mobile')
 
 ### Pomodoro Settings
-[Pomodoro Settings](/img/settings.jpg 'Pomodoro Settings')
+![Pomodoro Settings](/img/settings.jpg 'Pomodoro Settings')
 
 
 ## Technology Used
