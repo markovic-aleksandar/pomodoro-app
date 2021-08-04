@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fontawesome.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- Style.css -->
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <!-- Pomodoro Container -->
+        <div class="pomodoro-container">
+            <h1 class="main-title">Pomodoro</h1>
+            <!-- Pomodoro Times -->
+            <div class="pomodoro-times">
+                <button type="button" class="btn pomodoro-btn active">Pomodoro</button>
+                <button type="button" class="btn pomodoro-short-btn">Short break</button>
+                <button type="button" class="btn pomodoro-long-btn">Long break</button>
+            </div>
+            <!-- Pomodoro Times END -->
+            <!-- Pomodoro -->
+            <div class="pomodoro">
+                <div class="pomodoro-holder">
+                    <svg>
+                        <circle cx="60" cy="60" r="54"></circle>
+                    </svg>
+                    <div class="pomodoro-content">
+                        <h3 class="time"></h3>
+                        <button type="button" class="btn pomodoro-action-btn"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Pomodoro END -->
+            <!-- Pomodoro Settings Btn -->
+            <button class="fas fa-cog btn pomodoro-settings-btn"></button>
+            <!-- Pomodoro Settings Btn END -->
+        </div>
+        <!-- Pomodoro Container END -->
+
+        <!-- Pomodoro Settings Modal -->
+        <div class="pomodoro-settings-modal hide-modal">
+            <div class="pomodoro-settings">
+                <div class="settings-group">
+                    <h2 class="main-title">Settings</h2>
+                    <span class="close-pomodoro-settings">&times;</span>
+                </div>
+                <div class="settings-group">
+                    <h3 class="group-title">Time(minutes)</h3>
+                    <div class="pomodoro-time-items">
+                        <div class="pomodoro-time-item">
+                            <label>Pomodoro</label>
+                            <input type="number" class="pomodoro-main-input" value="25" step="1" min="1" max="99">
+                        </div>
+                        <div class="pomodoro-time-item">
+                            <label>Short break</label>
+                            <input type="number" class="pomodoro-short-input" value="5" step="1" min="1" max="99">
+                        </div>
+                        <div class="pomodoro-time-item">
+                            <label>Long break</label>
+                            <input type="number" class="pomodoro-long-input" value="15" step="1" min="1" max="99">
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <h3 class="group-title">Font</h3>
+                    <div class="pomodoro-font-items">
+                        <div class="pomodoro-font-item active" data-font="font-1">Aa</div>
+                        <div class="pomodoro-font-item" data-font="font-2">Aa</div>
+                        <div class="pomodoro-font-item" data-font="font-3">Aa</div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <h3 class="group-title">Color</h3>
+                    <div class="pomodoro-color-items">
+                        <div class="pomodoro-color-item active" data-color="theme-1"></div>
+                        <div class="pomodoro-color-item" data-color="theme-2"></div>
+                        <div class="pomodoro-color-item" data-color="theme-3"></div>
+                    </div>
+                </div>
+
+                <!-- Pomodoro Apply Settings -->
+                <button type="button" class="btn pomodoro-apply-btn">Apply</button>
+                <!-- Pomodoro Apply Settings END -->
+            </div>
+        </div>
+        <!-- Pomodoro Settings Modal END -->
+
+        <!-- Main.js -->
+        <script src="main.js"></script>
+    </body>
+    </html>
